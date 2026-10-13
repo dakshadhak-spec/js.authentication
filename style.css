@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  }
+body {
+margin: 0;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.container {
+background: white;
+width: 90%;
+max-width: 400px;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+h1 {
+text-align: center;
+color: #333;
+}
+h2 {
+color: #5b4bc4;
+text-align: center;
+}
+.container > p {
+text-align: center;
+color: #666;
+}
+form {
+display: flex;
+flex-direction: column;
+}
+label {
+margin-top: 12px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+input {
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+}
+input:focus {
+outline: 2px solid #667eea;
+border-color: transparent;
+}
+button {
+margin-top: 20px;
+padding: 12px;
+background: #667eea;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+}
+button:hover {
+background: #5145cd;
+}
+a {
+color: #5b4bc4;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+#loginMessage,
+#registerMessage {
+font-weight: bold;
+overflow-wrap: anywhere;
+}
